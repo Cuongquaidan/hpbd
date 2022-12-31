@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+.html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.gift {
+  height: calc(100vh -400px);
+  margin: 200px 460px;
+}
+.mail {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.mail-close {
+  margin-top: 104px;
+  cursor: pointer;
+  padding: 50px;
+}
+.gift:hover .mail-close {
+  display: none;
+}
+
+.mail-open {
+  display: none;
+  margin-top: -135px;
+}
+.mail-open .mail {
+  position: relative;
+}
+.gift:hover .mail-open {
+  display: block;
+}
+.loichuc {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  word-wrap: break-word;
+  line-height: 2;
+}
+.you {
+  position: absolute;
+  top: 370px;
+  left: 790px;
+}
+.you a {
+  font-weight: 900px;
+  color: red;
+}
